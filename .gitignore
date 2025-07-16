@@ -1,0 +1,17 @@
+# Bỏ qua thư mục build/log/install của ROS
+build/
+install/
+log/
+
+# Bỏ qua file cấu hình cá nhân VSCode
+.vscode/
+
+# Bỏ qua dữ liệu nội bộ của SLAM Toolbox
+*.posegraph
+*.data
+
+# Python cache
+__pycache__/
+
+# MacOS system file (nếu dùng Mac sau này)
+.DS_Store
